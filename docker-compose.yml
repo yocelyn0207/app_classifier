@@ -1,0 +1,17 @@
+services:
+  app_classifier:
+    build: .
+    container_name: app_classifier
+    restart: always
+    expose:
+      - 8080
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    depends_on:
+      - app_classifier
+    ports:
+      - 80:80
+

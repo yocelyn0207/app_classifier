@@ -1,0 +1,12 @@
+{
+    "learning_rate": {
+        "defaultValue": 1e-04,
+        "requireTuning": false,
+        "tuningValuesType": "Discrete",
+        "candidateValues": [1e-01, 1e-02, 1e-03, 1e-04, 1e-05, 1e-06]
+    },
+    "batch_size": {
+        "defaultValue": 32,
+        "requireTuning": false
+    }
+}
