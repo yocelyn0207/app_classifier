@@ -21,8 +21,8 @@ parser.add_argument('--source_max_token_len', type=int, default=256)
 parser.add_argument('--num_beams', type=int, default=16)
 
 
-parser.add_argument('--data_dir', type=str, default='/Users/alicewong/Documents/Programming/application-classifier/datasets/mini')
-parser.add_argument('--save_dir', type=str, default='/Users/alicewong/Documents/Programming/application-classifier/predictions')
+parser.add_argument('--data_dir', type=str, default='/Users/yocelyn/Documents/Programming/application-classifier/datasets/mini')
+parser.add_argument('--save_dir', type=str, default='/Users/yocelyn/Documents/Programming/application-classifier/predictions')
 parser.add_argument('--train_file_name', type=str, default='train.csv')
 parser.add_argument('--valid_file_name', type=str, default='valid.csv')
 parser.add_argument('--valid_fscore_save_file_name', type=str, default='valid_fscore')
